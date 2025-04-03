@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 FORMS AND ELEMENTS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome To My Information Page</h1>
+    </header>
+
+    <section>
+        <h2>What To Expect</h2>
+        <ol type="I">
+            <li>An Ordered List</li>
+            <li>An External Image</li>
+            <li>A Contacts Table</li>
+            <li>A Registration Form</li>
+            <li>More Contacts</li>
+            <li>A Footer Section</li>
+        </ol>
+    </section>
+
+    <section>
+        <h2>External Image</h2>
+        <img src="https://images.pexels.com/photos/158971/pexels-photo-158971.jpeg?auto=compress&cs=tinysrgb&w=600" alt="A Race Car">
+        <img src="https://images.pexels.com/photos/248747/pexels-photo-248747.jpeg?auto=compress&cs=tinysrgb&w=600" alt="A Racecar's Speedometer">
+    </section>
+
+    <section>
+        <h2>Contact List</h2>
+        <table border="1" text-align="center">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Davis Kathungu</td>
+                    <td>Kibera Drive, Nairobi</td>
+                    <td>+254 758 247556</td>
+                    <td>davismiles222@email.com</td>
+                </tr>
+                <tr>
+                    <td>Gabriel Madolio</td>
+                    <td>3rd Ayany Estate, Mombasa</td>
+                    <td>+254 723 987654</td>
+                    <td>gmadolio@email.com</td>
+                </tr>
+                <tr>
+                    <td>Pucci Mburu</td>
+                    <td>Main St, Mura'nga</td>
+                    <td>+254 718 112233</td>
+                    <td>pmburu@email.com</td>
+                </tr>
+                <tr>
+                    <td>Eve Hiedra</td>
+                    <td>Palm St, Nakuru</td>
+                    <td>+254 715 334455</td>
+                    <td>evehidra@email.com</td>
+                </tr>
+                <tr>
+                    <td>Janet Kanini</td>
+                    <td>Oak Place, Eldoret</td>
+                    <td>+254 742 556677</td>
+                    <td>kjanet@email.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>Registration Form</h2>
+        <form action="#" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter Your Full Name" required="required"><br><br>
+
+            <label for="phone">Phone No:</label>
+            <input type="number" id="phone" name="phone" placeholder="Enter Phone Number" required="required"><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter Your Email" required="required"><br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Create A Strong Password" required="required"><br><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required="required"><br><br>
+
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+                <option value="Kenya">Kenya</option>
+                <option value="Uganda">Uganda</option>
+                <option value="Tanzania">Tanzania</option>
+                <option value="Rwanda">Rwanda</option>
+                <option value="Rwanda">Nigeria</option>
+                <option value="Rwanda">South Africa</option>
+                <option value="Rwanda">Egypt</option>
+                <option value="Rwanda">Congo</option>
+                <option value="Rwanda">Zimbabwe</option>
+                <option value="Rwanda">Malawi</option>
+            </select><br><br>
+
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="Male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="Female" required>
+            <label for="female">Female</label><br><br>
+
+            <label>Preferred Contact Method:</label>
+            <input type="checkbox" id="emailContact" name="contactMethod" value="Email">
+            <label for="emailContact">Email</label>
+            <input type="checkbox" id="phoneContact" name="contactMethod" value="Phone">
+            <label for="phoneContact">Phone</label><br><br>
+
+            <button type="submit">Register</button>
+        </form>
+    </section>
+
+    <footer id="contact">
+        <h2>Contact us </h2>
+        <p>You can reach us via</p>
+            Email : <a href="mailto:daviskathungu@gmail.com">Daviskathungu@gmail.com</a><br><br>
+            Phone : 0758247556 <br><br>
+            Instagram :<a href="https://www.instagram.com/davi_s911"> davi_s911</a><br><br>
+            TikTok :<a href="https://www.tiktok.com/@_who.the.fuck.cares"> @_who.is.Davis</a><br><br>
+        <p>&copy; 2025 My Website. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
